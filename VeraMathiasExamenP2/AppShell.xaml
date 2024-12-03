@@ -7,17 +7,17 @@
     Title="VeraMathiasExamenP2">
 
     <TabBar>
-        <Tab Title="Principal" Icon="icono_home.png" x:Name="mveraPrincipalTB">
+        <Tab Title="Principal" Icon="home.jpg" x:Name="mveraPrincipalTB">
             <ShellContent
                 Title="Ingreso de Datos"
                 ContentTemplate="{DataTemplate local:VeraMathiasPrincipal}"
-                Route="MainPage" />
+                Route="VeraMathiasPrincipal" />
         </Tab>
-        <Tab Title="Apellidos" Icon="icono_person.png" x:Name="mveraApellidosTB">
+        <Tab Title="Apellidos" Icon="person.jpg" x:Name="mveraApellidosTB">
             <ShellContent
                 Title="Nombres y Apellidos"
                 ContentTemplate="{DataTemplate local:VeraMathiasApellidos}"
-                Route="MainPage" />
+                Route="VeraMathiasApellidos" />
         </Tab>
     </TabBar>
 
