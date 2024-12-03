@@ -4,12 +4,20 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:VeraMathiasExamenP2"
-    Shell.FlyoutBehavior="Disabled"
     Title="VeraMathiasExamenP2">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+    <FlyoutItem x:Name="PrincipalFLY" Icon="icon_home.png">
+        <ShellContent
+            Title="Ingreso de datos"
+            ContentTemplate="{DataTemplate local:VeraMathiasPrincipal}"
+            Route="MainPage" /> 
+    </FlyoutItem>
+
+    <FlyoutItem x:Name="ApellidosFLY" Icon="icon_home.png">
+        <ShellContent
+        Title="Apellidos y nombres"
+        ContentTemplate="{DataTemplate local:VeraMathiasApellidos}"
         Route="MainPage" />
+    </FlyoutItem>
 
 </Shell>
