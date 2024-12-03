@@ -6,18 +6,19 @@
     xmlns:local="clr-namespace:VeraMathiasExamenP2"
     Title="VeraMathiasExamenP2">
 
-    <FlyoutItem x:Name="PrincipalFLY" Icon="icon_home.png">
-        <ShellContent
-            Title="Ingreso de datos"
-            ContentTemplate="{DataTemplate local:VeraMathiasPrincipal}"
-            Route="MainPage" /> 
-    </FlyoutItem>
-
-    <FlyoutItem x:Name="ApellidosFLY" Icon="icon_home.png">
-        <ShellContent
-        Title="Apellidos y nombres"
-        ContentTemplate="{DataTemplate local:VeraMathiasApellidos}"
-        Route="MainPage" />
-    </FlyoutItem>
+    <TabBar>
+        <Tab Title="Principal" Icon="icono_home.png" x:Name="mveraPrincipalTB">
+            <ShellContent
+                Title="Ingreso de Datos"
+                ContentTemplate="{DataTemplate local:VeraMathiasPrincipal}"
+                Route="MainPage" />
+        </Tab>
+        <Tab Title="Apellidos" Icon="icono_person.png" x:Name="mveraApellidosTB">
+            <ShellContent
+                Title="Nombres y Apellidos"
+                ContentTemplate="{DataTemplate local:VeraMathiasApellidos}"
+                Route="MainPage" />
+        </Tab>
+    </TabBar>
 
 </Shell>

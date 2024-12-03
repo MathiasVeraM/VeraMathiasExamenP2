@@ -424,4 +424,14 @@
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
     </Style>
 
+    <Style x:Key="mvera_label3Apellidos" TargetType="Label">
+        <Setter Property="TextColor" Value="Red"/>
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
+    <Style x:Key="mvera_label4Apellidos" TargetType="Label">
+        <Setter Property="TextColor" Value="Red"/>
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
 </ResourceDictionary>
