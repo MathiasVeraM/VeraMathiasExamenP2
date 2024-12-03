@@ -14,7 +14,7 @@
         <Editor
             x:Name="mveraEditor1Principal"
             Placeholder=""
-            HeightRequest="100"
+            HeightRequest="50"
             />
 
         <Label 
@@ -27,7 +27,7 @@
         <Editor
             x:Name="mveraEditor2Principal"
             Placeholder=""
-            HeightRequest="100"
+            HeightRequest="50"
             />
         
         <Label 

@@ -22,6 +22,5 @@ public partial class VeraMathiasPrincipal : ContentPage
             Numero = Int32.Parse(mveraEditor1Principal.Text),
             Nombre = mveraEditor2Principal.Text
         };
-
     }
 }
