@@ -49,7 +49,9 @@
             HorizontalOptions="Center" 
             x:Name="mveraLabel5Principal"/>
 
-            <Button Text="Recargar"/>
+            <Button Text="Recargar" 
+                    x:Name="BotonRecargar"
+                    Clicked="BotonRecargar_Clicked"/>
         
     </VerticalStackLayout>
 </ContentPage>

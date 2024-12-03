@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace VeraMathiasExamenP2.Models
 {
     public class VeraMathiasRecarga
-    {
-        public int Id { get; set; }
+    { 
         public int Numero { get; set; }
         public string Nombre { get; set; }
     }

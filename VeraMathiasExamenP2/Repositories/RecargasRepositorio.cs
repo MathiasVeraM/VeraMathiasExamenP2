@@ -16,7 +16,6 @@ namespace VeraMathiasExamenP2.Repositories
         {
             return new VeraMathiasRecarga()
             {
-                Id = 1,
                 Numero=0979386716,
                 Nombre="Mathias"
             };
