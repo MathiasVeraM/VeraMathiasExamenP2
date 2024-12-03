@@ -25,7 +25,7 @@
             x:Name="mveraLabel2Principal"/>
         
         <Editor
-            x:Name="mveraEditor1Principal"
+            x:Name="mveraEditor2Principal"
             Placeholder=""
             HeightRequest="100"
             />

@@ -17,6 +17,11 @@ public partial class VeraMathiasPrincipal : ContentPage
 
     private void BotonRecargar_Clicked(object sender, EventArgs e)
     {
-        
+        VeraMathiasRecarga veraMathiasRecarga=new VeraMathiasRecarga
+        {
+            Numero = Int32.Parse(mveraEditor1Principal.Text),
+            Nombre = mveraEditor2Principal.Text
+        };
+
     }
 }
