@@ -7,19 +7,22 @@
         <Label 
             Text="Ingrese el numero telefonico: "
             VerticalOptions="Center" 
-            HorizontalOptions="Center" 
+            HorizontalOptions="Center"
+            Padding="20"
             x:Name="mveraLabel1Principal"/>
 
         <Label 
             Text="Ingrese el nombre la persona que realiza la recarga: "
             VerticalOptions="Center" 
-            HorizontalOptions="Center" 
+            HorizontalOptions="Center"
+            Padding="20"
             x:Name="mveraLabel2Principal"/>
         
         <Label 
             Text="Los ultimos datos ingresados son: "
             VerticalOptions="Center" 
-            HorizontalOptions="Center" 
+            HorizontalOptions="Center"
+            Padding="20"
             x:Name="mveraLabel3Principal"/>
         
         <Label 
