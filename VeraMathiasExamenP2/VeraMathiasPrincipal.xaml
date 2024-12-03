@@ -15,20 +15,24 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             x:Name="mveraLabel2Principal"/>
+        
         <Label 
-            Text="Ingrese el nombre la persona que realiza la recarga: "
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-            x:Name="mveraLabel2Principal"/>
-        <Label 
-            Text=" "
+            Text="Los ultimos datos ingresados son: "
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             x:Name="mveraLabel3Principal"/>
+        
         <Label 
-            Text=" "
+            Text="{Binding Nombre}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             x:Name="mveraLabel4Principal"/>
+        
+        <Label 
+            Text="{Binding Numero}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            x:Name="mveraLabel5Principal"/>
+        
     </VerticalStackLayout>
 </ContentPage>

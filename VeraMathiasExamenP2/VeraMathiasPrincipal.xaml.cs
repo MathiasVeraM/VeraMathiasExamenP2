@@ -11,6 +11,6 @@ public partial class VeraMathiasPrincipal : ContentPage
 		RecargasRepositorio recargasRepositorio = new RecargasRepositorio();
 		var infoRecarga = recargasRepositorio.DevuelveInfoRecarga();
 
-		
+		BindingContext=infoRecarga;
 	}
 }
