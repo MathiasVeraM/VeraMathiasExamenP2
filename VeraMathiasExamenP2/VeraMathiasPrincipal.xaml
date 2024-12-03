@@ -5,8 +5,30 @@
              Title="VeraMathiasPrincipal">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Ingrese el numero telefonico: "
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            x:Name="mveraLabel1Principal"/>
+
+        <Label 
+            Text="Ingrese el nombre la persona que realiza la recarga: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            x:Name="mveraLabel2Principal"/>
+        <Label 
+            Text="Ingrese el nombre la persona que realiza la recarga: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            x:Name="mveraLabel2Principal"/>
+        <Label 
+            Text=" "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            x:Name="mveraLabel3Principal"/>
+        <Label 
+            Text=" "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            x:Name="mveraLabel4Principal"/>
     </VerticalStackLayout>
 </ContentPage>
